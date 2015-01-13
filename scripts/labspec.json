@@ -21,13 +21,13 @@
                 {
                     "contact": {
                         "alternate_email": "", 
-                        "email": "jawahar@iiit.ac.in", 
+                        "email": "", 
                         "mobile_number": "", 
                         "office_number": ""
                     }, 
                     "department": "", 
-                    "institute": "IIIT Hyderabad", 
-                    "name": "Jawahar C.V", 
+                    "institute": "Dayalbagh Educational Institute", 
+                    "name": "", 
                     "organization": "", 
                     "role": "Lab Developer", 
                     "title": "", 
@@ -36,21 +36,6 @@
                 {
                     "contact": {
                         "alternate_email": "", 
-                        "email": "phani@iiit.ac.in", 
-                        "mobile_number": "", 
-                        "office_number": ""
-                    }, 
-                    "department": "", 
-                    "institute": "Dayalbagh Educational Institute", 
-                    "name": "", 
-                    "organization": "", 
-                    "role": "Lab RA", 
-                    "title": "", 
-                    "web": ""
-                }, 
-                {
-                    "contact": {
-                        "alternate_email": "", 
                         "email": "", 
                         "mobile_number": "", 
                         "office_number": ""
@@ -72,7 +57,22 @@
                     }, 
                     "department": "", 
                     "institute": "Dayalbagh Educational Institute", 
-                    "name": "Jay Panda", 
+                    "name": "", 
+                    "organization": "", 
+                    "role": "Lab RA", 
+                    "title": "", 
+                    "web": ""
+                }, 
+                {
+                    "contact": {
+                        "alternate_email": "", 
+                        "email": "", 
+                        "mobile_number": "", 
+                        "office_number": ""
+                    }, 
+                    "department": "", 
+                    "institute": "Dayalbagh Educational Institute", 
+                    "name": "", 
                     "organization": "", 
                     "role": "Lab RA", 
                     "title": "", 
