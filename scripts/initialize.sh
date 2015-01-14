@@ -15,7 +15,6 @@
 
 # exporting the proxy server
 #export http_proxy=http://proxy.iiit.ac.in:8080/
-#export https_proxy=http://proxy.iiit.ac.in:8080/
 # read proxy settings from config file
 source ./config.sh
 if [[ -n $http_proxy ]]; then
@@ -27,9 +26,10 @@ export https_proxy=$https_proxy
 fi
 
 # updating the packages
-apt-get update
+yum update
 
-# $1 is the shell variable for command-line argument. 
+# $1 is the shell variable for command-line argument. cd /var/www/build/
+
 FILENAME=dependencies.txt
 
 # reads the file given as an argument to the script line by line and
@@ -37,7 +37,7 @@ FILENAME=dependencies.txt
 cat $FILENAME | while read LINE
 do
 	echo $LINE
-	apt-get install -y $LINE
+	yum install -y $LINE
 done
 
 # invoke the build script
