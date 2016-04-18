@@ -1,0 +1,6 @@
+#Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^tab-([0-9]+)\.html$ tab.php?id=$1
+RewriteRule ^news-([0-9]+)\.html$ news.php?id=$1
+

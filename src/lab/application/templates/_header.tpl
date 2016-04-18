@@ -50,15 +50,16 @@ var script = document.createElement("script");script.type="text/javascript";var 
       <ul class="nav_links">
         <li><a href="index.php" {if $page_name eq "index"}class="active" {/if}>Home</a></li>
         <li><a href="aboutus.php" {if $page_name eq "about_us"}class="active" {/if}>About Us</a></li>
-      
-        <li><a href="contributors.php" {if $page_name eq "contributors"}class="active" {/if}>Contributors</a></li>
+      <li><a href="contributors.php" {if $page_name eq "contributors"}class="active" {/if}>Contributors</a></li>
+        
         <li><a href="experiments.php" {if $page_name eq "experiments"}class="active" {/if}>Experiments</a></li>
         <li><a href="equipments.php" {if $page_name eq "equipments"}class="active" {/if}>Equipments</a></li>
-        <li><a href="faq.php" {if $page_name eq "faq"}class="active" {/if}>FAQ's</a></li>
+        <li><a href="software.php" {if $page_name eq "software"}class="active" {/if}>Prerequisite S/W</a></li>
+	<li><a href="faq.php" {if $page_name eq "faq"}class="active" {/if}>FAQ's</a></li>
         <li><a href="contactus.php" {if $page_name eq "contact_us"}class="active" {/if}>Contact Us</a></li>
         <li><a href="acknowledgement.php" {if $page_name eq "acknowledgement"}class="active" {/if}>Acknowledgement</a></li>
-        <li><a href="feedback.php" {if $page_name eq "feedback"}class="active" {/if}>Feedback</a></li>
-       </ul>
+        <!--<li><a href="feedback.php" {if $page_name eq "feedback"}class="active" {/if}>Feedback</a></li>
+       </ul>-->
     </div>
     <div id="login">
       <table width="176" border="0" align="center" cellpadding="0" cellspacing="0">

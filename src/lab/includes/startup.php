@@ -15,7 +15,7 @@
 	define('IMAGES',APP_URL.'images');
 	define('CSS',APP_URL.'css');
 	
-	define('INCLUDES_DIR',APP_DIR.'includes/');
+	define('INCLUDES_DIR',APP_DIR.'/includes/');
 	define('APPLICATION_COMP_DIR',APP_DIR.'application/');
 	define('ENTITY_DIR',APPLICATION_COMP_DIR.'entities/');
 	define('__COMPONENTS_PATH', APPLICATION_COMP_DIR.'components/');

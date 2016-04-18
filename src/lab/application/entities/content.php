@@ -41,6 +41,13 @@ class content{
         return $field; 
 	}
 	
+	function getSoftware()
+	{
+		 $query = "SELECT content_id,content_title,content_description From content_master where content_id=8 order by content_title";
+        $field = NDatabase::getARow($query);
+        return $field; 
+	}	
+
 	function getIndex()
 	{
 		$query = "SELECT content_id,content_title,SUBSTRING(content_description,1,645) as content_description From content_master where content_id=2 order by content_title";

@@ -16,8 +16,8 @@ define('SMTP_PORT',465);
 
 define('TABLE_PREFIX','');
 define('SESSION_PREFIX','IEE_');
-define('SERVER_URL','http://mw-dei.virtual-lab.dei.ac.in');
-define('APP_FOL','/');
+define('SERVER_URL','http://localhost');
+define('APP_FOL','/microwave new/');
 define('DB_SESSION',false);
-define('APP_NAME','Virtual Labs');
+define('APP_NAME','Microwave Lab');
 ?>

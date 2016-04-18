@@ -1,6 +1,6 @@
 <?php
 require_once("includes/startup.php");
-require_once('lib/magpierss/rss_fetch.inc');
+//require_once('lib/magpierss/rss_fetch.inc');
 
 $url = BLOG_FEED_URL;
 
@@ -39,7 +39,7 @@ NTemplate::assign("featured_experiment",$featured_experiment);
 print "<pre>";
 print_r($featured_experiment);
 exit();
-*/
+
 $rss = fetch_rss($url);
 
 //echo "Site: ", $rss->channel['title'], "<br>";
@@ -54,6 +54,8 @@ foreach ($rss->items as $item ) {
 	$items[]=$tmp;
 }
 //print_r($items);
+*/
+$items = array();
 NTemplate::assign("page_name","index");
 NTemplate::assign('items',$items);
 NTemplate::display('index.tpl');
