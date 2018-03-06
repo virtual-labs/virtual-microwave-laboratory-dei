@@ -148,7 +148,7 @@
                             <tr>
                             <td align="left">
                             <h3>emGine Environment - 3D Electromagnetic Field Simulator</h3>
-                            <br /><p> The emGine Environment(TM) is a full-wave 3D electromagnetic field simulation environment solving Maxwell's equations in time-domain. It is used for the modeling of high-frequency electromagnetic field in microwave circuits, antennas, resonators, microwave filters, hollow waveguides, etc. </p>
+                            <br /><p> The emGine Environment(TM) is a full-wave 3D electromagnetic field simulation environment solving Maxwell's equations in time-domain. It is used for the modeling of high-frequency electromagnetic field in microwave circuits, antennas, resonators, microwave filters, hollow waveguides </p>
 <br />
 <p>
 <strong>Download emGine Environment - 3D Electromagnetic (EM) Field Simulator :  <a href="{$smarty.const.UPLOADS_SIMULATORS_FLASH_URL}emGine_0.9.3a1.exe" style="text-decoration:none; color:#FA7E14;"><img src="images/download_icon.gif" /> CLICK HERE</a></strong>

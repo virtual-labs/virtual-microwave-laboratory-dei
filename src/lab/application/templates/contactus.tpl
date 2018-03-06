@@ -52,15 +52,15 @@
                   <tr>
                     <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
                         <tr>
-                          <td width="50%" valign="top"><span class="blue_text">Komal Saxena</span> <br />
+                          <td width="50%" valign="top"><span class="blue_text">Tulika Giri</span> <br />
                             Research Assistant <br />
                             Microwave Physics Lab<br />
                             Dept. of Physics &amp; Computer Science <br />
                             Dayalbagh Educational Institute <br />
                             (Deemed University), Agra 282 005, INDIA<br />
                             <br />
-                            <img src="images/icon_mail.png" alt="" width="21" height="18" /> : <a href="mailto:manas.iilm@gmail.com" class="orange">komal03oct@gmail.com</a><br />
-                            <img src="images/icon_phone.png" alt="" width="21" height="16" /> : +91-8868816088</td>
+                            <img src="images/icon_mail.png" alt="" width="21" height="18" /> : <a href="mailto:manas.iilm@gmail.com" class="orange">tulika.giri@gmail.com</a><br />
+                            <img src="images/icon_phone.png" alt="" width="21" height="16" /> : +91-9634471408</td>
                           
                       </tr>
                     </table></td>

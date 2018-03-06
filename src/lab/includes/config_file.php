@@ -16,8 +16,8 @@ define('SMTP_PORT',465);
 
 define('TABLE_PREFIX','');
 define('SESSION_PREFIX','IEE_');
-define('SERVER_URL','http://localhost');
-define('APP_FOL','/microwave new/');
+define('SERVER_URL','./');
+define('APP_FOL','/');
 define('DB_SESSION',false);
 define('APP_NAME','Microwave Lab');
 ?>
