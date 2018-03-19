@@ -1,17 +1,1 @@
-<?php
-require_once("includes/startup.php");
-loadEntity("content");
-NTemplate::assign("page_name","software");
-$arr=array();
-$arr =  content::getSoftware();
-/*print "<pre>";
-print_r($arr);
-exit();
-*/
-NTemplate::assign("arr",$arr);
-
-
-
-NTemplate::display('software.tpl');
-
-?>
+<a href="uploads/simulators_flash/emGine_0.9.3a1.exe">Click for downloading emGine Software</a>
