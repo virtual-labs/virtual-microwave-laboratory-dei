@@ -114,7 +114,7 @@
                     "backup": [], 
                     "clean": [], 
                     "init": ["mv /var/www/index.html index.html.default",
-                        "cp -r ../build/* /var/www/"
+                        "cp -r ../build/* /var/www/",
 			"cp ../src/labs/uploads/simulators_flash/emGine_0.9.3a1.exe /var/www/uploads/simulators_flash/"
                         ], 
                     "pause": [], 
